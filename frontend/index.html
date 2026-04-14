@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dori Design Studio</title>
+
+  <link rel="stylesheet" href="../resources/css/style.css">
+
+  <!-- PREMIUM FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>DORI</h2>
+
+  <div class="nav-links">
+    <a>New Arrivals</a>
+    <a>Lehengas</a>
+    <a>Kurtis</a>
+    <a>Indo-Western</a>
+    <a>Bespoke</a>
+    <a>Wedding</a>
+    <a>About</a>
+
+    <a href="#reviews">Reviews</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>Where Every Thread Tells a Story</h1>
+    <p>Luxury ethnic wear in Mumbai</p>
+    <button onclick="scrollToSection()">Explore Collection</button>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections" class="collections">
+  <h2>Collections</h2>
+
+  <div class="grid">
+  <div class="card" style="background-image:url('../resources/images/lehenga.jpg')">
+    <p>Lehengas</p>
+  </div>
+
+  <div class="card" style="background-image:url('../resources/images/kurti.jpg')">
+    <p>Kurtis</p>
+  </div>
+
+  <div class="card" style="background-image:url('../resources/images/indo.jpg')">
+    <p>Indo-Western</p>
+  </div>
+
+  <div class="card" style="background-image:url('../resources/images/bespoke.jpg')">
+    <p>Bespoke</p>
+  </div>
+</div>
+</section>
+
+<!-- HIGHLIGHT -->
+<section class="highlight">
+  <div class="left">
+    <img src="../resources/images/wedding.jpg" alt="">
+  </div>
+
+  <div class="right">
+    <h2>Luminous Craft</h2>
+    <p>Experience handcrafted luxury tailored for weddings and special occasions.</p>
+    <button>Explore</button>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="reviews">
+  <h2>Reviews</h2>
+
+  <div class="review-grid">
+    <div class="review-card">
+      <p>"Amazing collection and premium quality!"</p>
+      <span>— Customer</span>
+    </div>
+
+    <div class="review-card">
+      <p>"Best place in Mumbai for ethnic wear."</p>
+      <span>— Retail Buyer</span>
+    </div>
+
+    <div class="review-card">
+      <p>"Excellent wholesale pricing and service."</p>
+      <span>— Business Client</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-grid">
+    <div class="contact-item">
+      <i data-lucide="phone"></i>
+      <p>+91 93720 34434</p>
+    </div>
+
+    <div class="contact-item">
+      <i data-lucide="instagram"></i>
+      <a href="https://www.instagram.com/dori.design.studio/" target="_blank">
+        @dori.design.studio
+      </a>
+    </div>
+  </div>
+
+  <input type="text" id="name" placeholder="Name">
+  <input type="text" id="phone" placeholder="Phone">
+
+  <select id="type">
+    <option>Retail</option>
+    <option>Wholesale</option>
+  </select>
+
+  <button onclick="submitForm()">Submit</button>
+  <p id="status"></p>
+</section>
+
+<!-- MAP -->
+<section class="map">
+  <div class="map-grid">
+    <div>
+      <h2>Visit Us</h2>
+      <p>Dadar, Mumbai</p>
+    </div>
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.119881104709!2d72.8353435793457!3d19.014438399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cedcbe60048f%3A0xe02d90fe1a9c78fe!2sDORI%20DESIGN%20STUDIO!5e0!3m2!1sen!2sin!4v1776202197440!5m2!1sen!2sin"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/919372034434" target="_blank" class="whatsapp">
+  <i data-lucide="message-circle"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
