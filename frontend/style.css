@@ -98,7 +98,7 @@ nav.scrolled {
 /* HERO */
 .hero {
   height: 100vh;
-  background: url('../images/hero(2).jpg') center/cover no-repeat;
+  background: url('../resources/images/hero(2).jpg') center/cover no-repeat;
   position: relative;
 }
 
